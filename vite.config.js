@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'youtube-twitter-ten.vercel.app'
+      '/api': 'http://localhost:8000/api/v1'
     }
   }
 })
