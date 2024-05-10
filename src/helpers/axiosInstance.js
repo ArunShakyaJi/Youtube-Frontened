@@ -3,7 +3,7 @@ import {BASE_URL} from "../constants.js"
 
 const axiosInstance = axios.create({
     baseURL: BASE_URL,
-    withCredentials: false ,
+    withCredentials: true ,
 
 });
 
